@@ -14,6 +14,11 @@ public class Util {
         }
         //add the last element
         result[j++] = arr[arr.length - 1];
+
+        //create a new array with the size of the result array
+
+        int[] finalResult = new int[j];
+        
         return result;
     }
     
