@@ -1,13 +1,16 @@
 package com.progress.demo;
 
-import java.util.Arrays;
+// The import java.util.Arrays is never used
 import java.util.HashMap;
-import java.util.List;
+// The import java.util.List is never used
 import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @SpringBootApplication
 public class DemoApplication {
@@ -24,9 +27,17 @@ public class DemoApplication {
 
 		 map.forEach((k, v) -> System.out.println("Key: " + k + " Value: " + v));
 
+		 //update 1001 to "one thousand one"
+
+		 System.out.println("Before update: " + map.get(1));
+
 		
 
 
 	}
+
+	//Design an algorithm to remove duplicated items in a list of integer
+	//The algorithm should be able to handle a list of any size 
+
 }
 
