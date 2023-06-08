@@ -17,7 +17,7 @@ public class Util {
 
         //create a new array with the size of the result array
         
-        //200 300 400
+        //200 300 400 401
 
         int[] finalResult = new int[j];
         
