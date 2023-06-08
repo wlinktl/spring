@@ -16,6 +16,8 @@ public class Util {
         result[j++] = arr[arr.length - 1];
 
         //create a new array with the size of the result array
+        
+        //200
 
         int[] finalResult = new int[j];
         
